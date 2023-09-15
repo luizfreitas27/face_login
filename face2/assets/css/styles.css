@@ -1,0 +1,129 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: #c0c0c0;
+}
+header {
+    height: 10%;
+    max-width: 100%;
+    background-color: red;
+}
+
+main {
+    height: 70%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.content {
+    max-width: 600px;
+
+    width: 100%;
+}
+
+.one {
+    margin-top: 100px;
+    align-self: flex-start;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .one figure {
+    max-width: 100%;
+    max-height:182px;
+    padding: 112px 0 16px;
+    
+} */
+
+.one figure img {
+    width: 301px;
+    height: 106px;
+    margin: 0;
+
+}
+
+.one .text h4 {
+    padding: 10px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 34px;
+    margin-left: 20px;
+}
+
+.two {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.two .formulario {
+    padding: 50px;
+    background-color: black;
+    
+}
+
+.two .formulario form {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 6px;
+
+}
+
+.two .formulario form input{
+    padding: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 7px;
+    width: 300px;
+    font-size: 18px;
+
+}
+
+.two .formulario form a {
+    color: rgb(84, 135, 243);
+    text-decoration: none;
+}
+
+#button {
+    background-color: blue;
+    width: 320px;
+    padding: 10px;
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+footer {
+    height: 20%;
+    width: 100%;
+    background-color: blue;
+}
